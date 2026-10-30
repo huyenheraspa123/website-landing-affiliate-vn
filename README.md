@@ -19,3 +19,21 @@ Mở repo bằng Claude Code rồi gõ:
 ```
 
 hoặc nói tự nhiên, ví dụ: "Dựng landing page ưu đãi cho spa của tôi".
+
+---
+
+# Skill: dua-skill-len-github
+
+Nằm ở `.claude/skills/dua-skill-len-github/SKILL.md`.
+
+Dùng để đưa **bất kỳ skill nào** vào code và lưu lên GitHub: chép skill vào `.claude/skills/`, viết README, commit, đẩy lên repo, kiểm tra trên GitHub và hướng dẫn cách dùng.
+
+Cách gọi:
+
+```
+/dua-skill-len-github
+```
+
+hoặc nói tự nhiên, ví dụ: "Đưa skill X lên repo https://github.com/<tài-khoản>/<repo>".
+
+Bạn chỉ cần tự làm 2 việc: tạo repo trống trên GitHub và cài Claude GitHub App cho repo đó (lần đầu).
